@@ -3,6 +3,9 @@
 @import "fonts";
 @import "global";
 
+*:focus {
+  outline: none !important;
+}
 
 .header {
   position: relative;
@@ -318,6 +321,7 @@
   .slick-list {
     min-height: 635px;
   }
+
   .slick-current {
     .slider-dots__content {
       display: block;
@@ -335,6 +339,7 @@
 
 .slider-dits__content-item {
   text-align: center;
+
   img {
     margin-bottom: 7px;
   }
@@ -358,6 +363,7 @@
   padding-bottom: 8px;
   margin-bottom: 8px;
   position: relative;
+
   &::before {
     content: '';
     position: absolute;
@@ -392,6 +398,7 @@
   position: absolute;
   bottom: 35px;
   transform: translateX(-50%);
+
   &::before {
     content: '';
     position: absolute;
@@ -416,8 +423,10 @@
 .slider-dots--1 {
   top: 335px;
   left: 0;
+
   .slider-dots__content {
     transform: translateX(0);
+
     &::before {
       left: 1px;
     }
@@ -471,8 +480,10 @@
 .slider-dots--8 {
   top: 500px;
   left: 40px;
+
   .slider-dots__content {
     transform: translateX(-261px);
+
     &::before {
       left: auto;
       right: 0;
@@ -481,26 +492,6 @@
 }
 
 //travel
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @import "media";
